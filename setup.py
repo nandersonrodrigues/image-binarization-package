@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="image_binarization",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Nanderson Rodrigues",
+    author_email="nandersondsr@gmaillcom",
+    description="Image binarization project example",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/nandersonrodrigues/image-binarization-package"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
