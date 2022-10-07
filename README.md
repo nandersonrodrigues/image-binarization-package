@@ -1,34 +1,28 @@
 # package_name
 
 Description. 
-The package img_processing is used to:
-	Processing:
-		- Histogram matching
-		- Structural similarity
-		- Resize image
-	Utils:
-		- Read image
-		- Save image
-		- Plot image
-		- Plot histogram
+The package image_binarization is used to:
+	- apply blurr effects on images
+	- transform rbg color images into gray scale images
+	- apply binariztion using gaussian and mean methods
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install img_processing
 
 ```bash
-pip install img_processing
+pip install image_binarization
 ```
 
 ## Usage
 
 ```python
-from img_processing.processing import combination
-combination.find_difference()
+from image_binarization.binarization import rgb_to_gray
+rgb_to_gray.image_rgb_to_gray()
 ```
 
 ## Author
 Nanderson Rodrigues
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)# img-processing
+[MIT](https://choosealicense.com/licenses/mit/)# image_binarization
